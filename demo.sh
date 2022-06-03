@@ -3,7 +3,7 @@ set -e -u -o pipefail
 
 declare -r SCRIPT_DIR=$(cd -P $(dirname $0) && pwd)
 
-declare -r NAMESPACE=${NAMESPACE:-pipelines-tutorial}
+declare -r NAMESPACE=${NAMESPACE:-dotnet-pipeline-app-gm}
 
 _log() {
     local level=$1; shift
